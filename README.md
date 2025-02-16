@@ -1,6 +1,17 @@
 # rockchip_rv1126_rv1106_yolov5_rtsp
 rockchip_rv1126_rv1106_yolov5_rtsp
 
+# Start
+make sure you have rv1126/rv1109 toolchain<br>
+i using /opt/atk-dlrv1126-toolchain because it's easy to using.But it can only use for alientek made rv1126 machine.
+also you can using toolchain in sdk,for example:<br>
+"XXX" means the sdk address<br>
+```
+GCC_COMPILER_PATH=/XXX/prebuilts/gcc/linux
+x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux
+gnueabihf
+```
+
 # Useage
 ## Compiled source code
 ```
