@@ -1,5 +1,5 @@
-# rockchip_rv1126_rv1106_yolov5_rtsp
-rockchip_rv1126_rv1106_yolov5_rtsp
+# rockchip_rv1126_yolov5_rtsp
+rockchip_rv1126_yolov5_rtsp
 
 # Start up
 ## 1.Development board information<br>
@@ -57,7 +57,7 @@ cd /demo/bin
 ## PC watching RTSP demo
 warning:do not use VLC media player,because it can't open!<br>
 I recommand you:EasyPlayer.Input the rtsp address:<br>
-tips:"192.168.XXX.XXX" means rv1126/rv1109 machine address.<br>
+tips:"192.168.XXX.XXX" means rv1126/rv1109 machine's ip address.<br>
 ```
 rtsp://192.168.XXX.XXX/live/main_stream
 ```
