@@ -3,11 +3,11 @@ rockchip_rv1126_rv1106_yolov5_rtsp
 
 # Start up
 ## 1.Development board information<br>
-Product model:ATK-DLRV1126
-SOC: RockChip RV1126
-Storage: 2GB DDR4L, 8GB EMMC
-Camera: ATK-MCIMX335
-Master control:Sony IMX335
+Product model:ATK-DLRV1126<br>
+SOC: RockChip RV1126<br>
+Storage: 2GB DDR4L, 8GB EMMC<br><br>
+Camera: ATK-MCIMX335<br>
+Master control:Sony IMX335<br>
 Pixel:504W<br>
 
 
