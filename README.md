@@ -12,12 +12,16 @@ Pixel:504W<br>
 
 
 ## 2.Take care of CMakeLists.txt<br>
-Make sure you have rv1126/rv1109 toolchain,i using /opt/atk-dlrv1126-toolchain,it use well for alientek made rv1126 machine.
-Also you can using toolchain in sdk,for example:("XXX" means the sdk address)<br>
+Make sure you have rv1126/rv1109 toolchain,i using /opt/atk-dlrv1126-toolchain,it is good use for alientek made rv1126 machine.
+Also you can using toolchain in sdk,but some function library(rkmedia,RGA,rockx,etc) should be modified.<br>
+For example:("XXX" means the sdk address)<br>
 ```
 GCC_COMPILER_PATH=/XXX/prebuilts/gcc/linux
 x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux
 gnueabihf
+
+include_directories(${lib_name}
+                    ${lib_location}/rga)
 ```
 
 ## 3.Let PC linking rv1126 machine
