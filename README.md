@@ -1,5 +1,5 @@
-# rockchip_rv1126_yolov5_rtsp
-rockchip_rv1126_yolov5_rtsp
+# ReadMe
+Abstract:Using atk RV1126 PCB Board and Demo,i made a yolov5 detect target with rtsp on my PC.
 
 # Start up
 ## 1.Development board information<br>
