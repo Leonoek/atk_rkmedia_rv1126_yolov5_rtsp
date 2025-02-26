@@ -34,10 +34,11 @@ cd env
 adb push coco_80_labels_list.txt yolov5s_relu_rv1109_rv1126_out_opt.rknn /demo/bin
 adb push imx415_YT10092_IR0147-60IRC-8M-F20-hdr3.xml imx335_MTV4-IR-E-P_40IRC-4MP-F16.xml /etc/iqfiles
 ```
-tip:you can also use ispserver avoid config iqfiles.<br>
+tip:1.you can also use ispserver to avoid config iqfiles.<br>
 ```
 ispserver &
 ```
+2.rknn model could only be trained using by atk's method, offical's train method can't using!
 
 # Useage
 ## 1.Compiled source code
