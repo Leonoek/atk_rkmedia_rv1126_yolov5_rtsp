@@ -66,3 +66,6 @@ tips:"192.168.XXX.XXX" means rv1126/rv1109 machine's ip address.<br>
 ```
 rtsp://192.168.XXX.XXX/live/main_stream
 ```
+
+# Result
+![result](result.png)
